@@ -1,0 +1,12 @@
+HINWEIS 9
+=========
+Wer steckt hinter dem Kürzel 'R.H.'? Zwei Wege:
+* Git-Forensik im beschlagnahmten Versand-Repo:
+    sh fall/repos/hafenkasse-versand/ermittlung-starten.sh
+    cd fall/repos/hafenkasse-versand
+  Gesucht: 'team/petrov.txt' und 'kunden/sendung-88.csv' in ALTEN
+  Commits (git show COMMIT:PFAD) — plus ein VERLORENER Commit
+  (git fsck --lost-found) mit einer Weisung.
+* Das öffentliche Register:
+    fall/firmenregister/hafenbank-vorstand.csv
+  Dort verrät der KURZEL den vollständigen Namen.

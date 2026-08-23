@@ -1,0 +1,20 @@
+# TERMINAL-HISTORY KRANKENSTATION (APOTHEKE) — AUSZUG 09.05.2026
+# Format: '# session <ZEIT> user:<KENNUNG>' gefolgt von Befehlen
+# Kennung zu Ausweis: terminal-nutzer.csv
+# session 2026-05-09 19:40:11 user:arzt-leitung
+grep -i kopfschmerzen formular-dosierung.csv
+# logout 19:52:03
+
+# session 2026-05-09 21:02:55 user:kk-kueche-03
+less lagerbestand-tee.csv
+grep -i bittermandel substanzen-merkblatt.csv
+man curl
+# logout 21:24:40
+
+# session 2026-05-09 21:41:07 user:kk-kueche-01
+tail -n 3 lieferungen-heute.log
+# logout 21:48:59
+
+# session 2026-05-09 22:10:41 user:pflege-nacht
+echo 'Ruhezustand' >> schichtbuch.txt
+# logout 22:15:12

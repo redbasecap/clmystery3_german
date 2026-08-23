@@ -1,0 +1,38 @@
+ANLEITUNG — DIE KOMMANDOZEILEN-MORDE III
+========================================
+
+Terminal City, wenige Wochen danach: Der Kronzeuge stirbt in seiner
+Zelle, giftig, präzise, abgemacht. Diesmal führen die Spuren durch
+Schichtpläne, Zutrittslogs, eine Terminal-History, ein tar-Archiv,
+einen Brief mit Geheimcode und das Tourensystem der 'Hafenkasse'.
+
+REGELN
+------
+1. Benutze ausschließlich das Terminal. Keinen Texteditor und keine
+   grafischen Tools, um Dateien im Ordner 'fall/' anzusehen.
+2. Erlaubt sind: 'cat', 'less', 'head', 'tail', 'grep', 'find',
+   'sort', 'uniq', 'cut', 'tr', 'tar', 'openssl', 'git', 'md5'
+   bzw. 'md5sum' und alles, was im SPICKZETTEL steht.
+3. Alles, was du brauchst, ist IM Fallordner versteckt. Du musst
+   nichts aus dem Internet laden.
+4. Steck fest? Die Dateien 'hinweis1' bis 'hinweis10' helfen — aber
+   lies sie der Reihe nach und nur, wenn du wirklich nicht weiterweißt.
+
+SO STARTEST DU
+--------------
+    cat anleitung          <- das hier
+    cat spickzettel.md     <- Kommandozeilen-Nachschlagewerk
+    ls fall/
+    less fall/tatort       <- dein erster echter Lead!
+
+WERKZEUGE
+---------
+    ./pruefer.sh           <- prüft deine Fortschritte (optional, macht Spaß)
+
+ZIEL
+----
+Finde heraus, WER den Tee gemischt hat, WER es befohlen hat — und
+unter welchem Decknamen die Order lief. Den Abschlussweg findest du
+in 'loesung'.
+
+Viel Erfolg, Detektiv.

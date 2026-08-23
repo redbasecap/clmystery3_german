@@ -1,0 +1,8 @@
+HINWEIS 6
+=========
+Welcher der fünf Briefe aus B-14 war der geschmuggelte?
+Die Überwachung listet Fingerabdrücke (MD5):
+    fall/protokolle/fingerprints.txt
+Prüfe alle Briefe:
+    md5 fall/beweisstuecke/brief-*.txt     (Linux: md5sum)
+Genau EINER passt zu 'SENDUNG-88-ANHANG'.

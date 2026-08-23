@@ -1,0 +1,6 @@
+HINWEIS 5
+=========
+Der Übrige ist dein Innendienst-Täter. Seine Sachen wurden gepackt:
+    tar -tzf fall/beweisstuecke/effekten-petrov.tar.gz
+    tar -xzf fall/beweisstuecke/effekten-petrov.tar.gz -C /tmp/effekten
+Im Inventar steht: ein unsignierter Brief — und eine ROT13-Notiz.

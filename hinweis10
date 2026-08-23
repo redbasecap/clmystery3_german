@@ -1,0 +1,6 @@
+HINWEIS 10
+===========
+Wenn du den vollständigen Namen der Auftraggeberin hast:
+    echo -n 'VORNAME NACHNAME' | md5
+    grep -if <HASH> kodiert
+Wie du den Bericht abgibst, steht in 'loesung'.

@@ -1,0 +1,8 @@
+HINWEIS 7
+=========
+Der echte Brief trägt einen Geheimcode: nimm die ERSTEN BUCHSTABEN
+jeder Zeile:
+    cut -c1 fall/beweisstuecke/brief-c.txt | tr -d '\n'
+Was da steht, ist der CONTACT-CODENAME der Drahtzieherin — sechs
+Buchstaben, eine Fabelwesen-Fräulein. Merken! Du brauchst sie als
+Passwort (Hinweis 8) und als Antwort beim pruefer.

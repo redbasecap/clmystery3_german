@@ -1,0 +1,19 @@
+LÖSUNG — WIE MAN DEN FALL ABSCHLIESST
+=====================================
+
+Wenn du sicher bist, den vollständigen Namen der Auftraggeberin zu
+kennen, dann prüfe ihn so (macOS):
+
+    echo -n 'Vorname Nachname' | md5
+    grep -if '<DEIN-HASH>' kodiert
+
+Auf Linux heißt es 'md5sum' statt 'md5'. Findet grep den Hash in der
+Datei 'kodiert': Herzlichen Glückwunsch, Detektiv.
+
+Danach wartet das versiegelte EPILOG auf dich (das Passwort kennst du —
+sechs Buchstaben, ein Fabelwesen):
+
+    openssl enc -d -aes-256-cbc -a -pbkdf2 -iter 10000 \
+      -in fall/verschluesselt/epilog.aes -pass pass:PASSWORT
+
+Und './pruefer.sh' bewertet deinen Abschlussbericht.

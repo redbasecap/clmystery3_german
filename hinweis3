@@ -1,0 +1,7 @@
+HINWEIS 3
+=========
+Wer konnte den Tee stellen? Zwei Dateien gehören zusammen:
+    fall/protokolle/schichtplan.csv      (wer war im ABEND/KUECHE?)
+    fall/protokolle/zutritts-log.log     (wer ging wann rein/raus?)
+Die Ausweis-Nummern löst du auf mit:
+    fall/protokolle/ausweis-register.csv

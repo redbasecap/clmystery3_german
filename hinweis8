@@ -1,0 +1,6 @@
+HINWEIS 8
+=========
+Das E-Mail der Küchenleitung ist AES-verschlüsselt:
+    openssl enc -d -aes-256-cbc -a -pbkdf2 -iter 10000 \
+      -in fall/verschluesselt/auftraggeberin.eml.aes -pass pass:PASSWORT
+PASSWORT = der Codename aus Hinweis 7 (GROSSBUCHSTABEN).

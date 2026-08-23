@@ -1,0 +1,64 @@
+AKTE 48/III — DIE STILLE ZEUGIN
+===============================
+
+      _______________________________
+     |  J V A   S T E I N B E R G    |
+     |                               |
+     |  |=|=|=|=|=|=|=|=|=|=|=|=|=|  |
+     |  |=|  B - 1 4          |=|=|  |   ZELLE B-14
+     |  |=|=|=|=|=|=|=|=|=|=|=|=|=|  |
+     |         ___                   |
+     |        (   )  <- TEETASSE     |   TATNACHT: 09./10. MAI 2026
+     |         \_/      BITTERMANDEL |
+     |_______________________________|
+
+LAGEBERICHT
+-----------
+René FALKENBERG (49), angeklagt in der Sache 'Hafenkasse', sollte am
+Donnerstag als Kronzeuge aussagen. Am Abend des 9. Mai wurde er tot in
+seiner Zelle B-14 gefunden — vergiftet mit CYANID im Abendtee
+(21:12 Uhr, typischer BITTERMANDELGERUCH).
+
+Kein Gewalteinbruch. Der Tee kam regulär über die Küchenroute.
+Seit Wochen las Falkenberg nur ein einziges Buch — eine SPENDE für die
+Gefängnisbücherei, mit Aufkleber 'MUSEUM FÜR BASH GESCHICHTE'. In dem
+Buch: ein unsignierter Brief. Die Totenwache hörte ihn noch die
+ANFANGSBUCHSTABEN der Zeilen aufsagen, 'wie ein Gedicht'.
+
+Hintergrund (Fall 47/II): Falkenbergs Kurierin sitzt inzwischen als
+Kronzeugentin im Zeugenschutz — sie kooperiert. Ihr Netzwerk 'Hafen-
+kasse' will verhindern, dass Falkenberg ebenfalls aussagt.
+
+Beweisstücke
+------------
+* Persönliche Effekten aus B-14 (als Archiv gepackt):
+      fall/beweisstuecke/effekten-petrov.tar.gz
+* Fünf beschlagnahmte Briefe aus der Zelle (unsigniert):
+      fall/beweisstuecke/brief-a.txt ... brief-e.txt
+* Fingerabdruck-Liste des abgehörten Paketwegs:
+      fall/protokolle/fingerprints.txt
+* Ein verschlüsseltes E-Mail vom Server der Küchenleitung:
+      fall/verschluesselt/auftraggeberin.eml.aes
+* Beschlagnahmtes Tourensystem des Versands 'Hafenkasse':
+      fall/repos/hafenkasse-versand   (ein echtes Git-Repository!)
+* Protokolle des Tattages (Schichtplan, Zutritt, Apotheken-Terminal):
+      fall/protokolle/
+
+Zeugen (Videoaussagen, Nummern beachten!)
+-----------------------------------------
+AUSSAGE #21045 — Dietmar Kluge, Zellennachbar:
+   riech BITTERMANDEL am Tee; das Buch und seine 'Gedicht'-Lesart.
+   Details: fall/befragungen/befragung-21045
+
+AUSSAGE #33712 — Burghard Fink, Küchenchef:
+   Tee-Route läuft über den SCHICHTPLAN; Bücher kommen seit Monaten
+   via GRÜNBLITZ CATERING.
+   Details: fall/befragungen/befragung-33712
+
+AUSSAGE #29864 — Josefine Peters, Gefängnisbibliothekarin:
+   der Brief lag IM Buch; der Tote buchstabierte gern die
+   ANFANGSBUCHSTABEN der Zeilen.
+   Details: fall/befragungen/befragung-29864
+
+Das TCPD braucht deinen Bericht: WER mischte den Tee — und WER hat es
+befohlen? Prüfe deine Zwischenergebnisse jederzeit mit ./pruefer.sh

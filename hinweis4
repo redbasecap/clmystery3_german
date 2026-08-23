@@ -1,0 +1,9 @@
+HINWEIS 4
+=========
+Filtere die Küchen-Leute mit Zutritt zwischen ca. 20:30 und 21:35.
+Dann aussortieren:
+* Eine Person hatte währenddessen eine AKTIVE SESSION am Apotheken-
+  Terminal (andere Gebäudehälfte): siehe apotheke-history.txt und
+  terminal-nutzer.csv.
+* Eine Person verließ die Tür bereits um 19:55 und kam nicht zurück.
+Übrig bleibt GENAU eine Ausweis-Nummer.
