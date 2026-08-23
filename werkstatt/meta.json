@@ -1,0 +1,72 @@
+{
+  "opfer": "René Falkenberg",
+  "taeter": "Milan Petrov",
+  "chefin": "Regina Holthaus",
+  "codename_chefin": "SPHINX",
+  "codename_taeter": "KIEBITZ",
+  "ausweis_taeter": "TC-KUECHE-2207",
+  "drop": "alter Fischspeicher Rampe 3",
+  "elim_a": {
+    "name": "Tom Krüger",
+    "ausweis": "2189",
+    "terminal": "kk-kueche-03"
+  },
+  "elim_b": {
+    "name": "Georg Jost",
+    "ausweis": "2311"
+  },
+  "zeugen": [
+    21045,
+    33712,
+    29864
+  ],
+  "hashes": {
+    "opfer_sha256": [
+      "7c3b9d584cf7a0f721419764f66151300f8a0be42959bf25fdbeeb61893c1618",
+      "7c3b9d584cf7a0f721419764f66151300f8a0be42959bf25fdbeeb61893c1618"
+    ],
+    "taeter_sha256": [
+      "8411c139ecb3e617b470c82a6281181ee834b7c2c0a0e8f1f94a2f6a102f9567"
+    ],
+    "code_sha256": [
+      "f8c2c556e154d27fe5df5fd77599abfaad1a6ac572667ceb710351c3caf26982"
+    ],
+    "chefin_sha256": [
+      "613bfcfdcb27f5552db77177413db3deba8136c6c541ea7b586324c5028d4084",
+      "c30452fd2aa03fae0fed6d5af6b0c1be232119e7121cea72ca5a6907669ab63e"
+    ],
+    "ort_sha256": [
+      "a2d7532a243f5452a4e1cf2e0654ee3e459fc7241debd99c1d0974cde498bbfe",
+      "198ffbf06f65ed26a4581e6f277f99a9e0dde714171d496580fec211a3833263",
+      "7ac1e365a82c22e352557ed9e8ac665dc38afe20121cf29d87651360c3beaaf1",
+      "de25e2bdf3c77d6e9cd5b3622d31c1920c97301e37289683058e5cfd4882f2b8"
+    ],
+    "chefin_md5": "cc3f04863e9d5736e78492b8029cf8b0"
+  },
+  "counts": {
+    "personen": 6598,
+    "buechereiclub_size": 50,
+    "interviews": 503,
+    "strassen": 36
+  },
+  "git": {
+    "C_TEAM": "d3d7ba1d8dc95ad7c678edd167d253242d688385",
+    "C_SENDUNG": "ad7fb6e587cb0b9c82e4578d3fa5ad36006e3c6f",
+    "DANGLING": "49ff8ef1531bca3de534d1cd02a1ab8ca6f46975"
+  },
+  "verify": {
+    "muenz_rot13_sha256": "f1a1d6c65bf99492c8c8d9b7a510652cc2be5de9250a4be40755a6b6ddb9f76a",
+    "acrostic": "SPHINX",
+    "fingerprint_target_md5": "98b013e82a279a588705bbd124d5e8fb",
+    "history_user_elim": "kk-kueche-03",
+    "history_logout": "21:24:40",
+    "petrov_entry": "2026-05-09 20:31:00",
+    "petrov_exit": "2026-05-09 21:33:00",
+    "elim_b_last_exit": "2026-05-09 19:55:00",
+    "sendung88_contains": "FISCHSPEICHER",
+    "taeter_txt_contains": "TC-KUECHE-2207",
+    "dangling_contains": "KIEBITZ",
+    "vorstand_contains": "Holthaus,Regina,RH",
+    "mail_contains": "Fischspeicher"
+  }
+}
